@@ -6,7 +6,7 @@ TOKEN = '8789592665:AAFX1Nlx6ArxpR3kgbTNWIerVN9V6GyeCMc'
 
 bot = telebot.TeleBot(TOKEN)
 L = instaloader.Instaloader()
-
+L.login("your_fake_ig_username", "your_fake_ig_password")
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
     bot.reply_to(message, "স্বাগতম! আমাকে কোনো Instagram ইউজারনেম পাঠান, আমি সেটির পাবলিক তথ্য দেব।")
