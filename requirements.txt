@@ -1,2 +1,7 @@
-instaloader
 pyTelegramBotAPI
+faker
+pyotp
+firebase-admin
+flask
+requests
+instaloader
